@@ -1,139 +1,1526 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wholesale Clothing Store</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+	<head>
+		<title>Women's Dresses | B2B Wholesale Clothing FashionPo</title>
+		<meta name="description" content="Online wholesale of women’s casual and elegant dresses. Discover the latest trends at FashionPo.">
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+<meta name="theme-color" content="#F3F3F3">        <link rel="icon" href="/public/img/favicons/favicon.ico" type="image/png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/public/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/public/img/favicons/favicon-96x96.png">
+<link rel="shortcut icon" href="/public/img/favicons/favicon.ico" type="image/png">
 
-        header {
-            background: #007BFF;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+<!-- apple icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/public/img/stores_icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/public/img/stores_icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/public/img/stores_icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/public/img/stores_icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/public/img/stores_icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/public/img/stores_icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/public/img/stores_icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/public/img/stores_icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/public/img/stores_icons/apple-icon-180x180.png">
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
+<!-- android icons -->
+<link rel="icon" type="image/png" sizes="36x36"  href="/public/img/stores_icons/android-icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48"  href="/public/img/stores_icons/android-icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72"  href="/public/img/stores_icons/android-icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96"  href="/public/img/stores_icons/android-icon-96x96.png">
+<link rel="icon" type="image/png" sizes="144x144"  href="/public/img/stores_icons/android-icon-144x144.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/public/img/stores_icons/android-icon-192x192.png">
 
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="/vendor/bootstrap-5.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="/vendor/flag-icons-main/css/flag-icons.min.css">
+<link rel="stylesheet" href="/vendor/fontawesome-6.5.1/css/all.min.css">
+<link rel="stylesheet" href="/vendor/select2/select2.css">
+<link rel="stylesheet" href="/public/css/fp.min.css?v=1728157055">
+<link rel="stylesheet" href="/public/css/font.min.css?v=1728157055">        	<link rel="alternate" hreflang="de" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+		<link rel="alternate" hreflang="de-de" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+    	<link rel="alternate" hreflang="de-at" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+    	<link rel="alternate" hreflang="de-li" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+    	<link rel="alternate" hreflang="de-be" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+    	<link rel="alternate" hreflang="de-lu" href="https://www.fashionpo.com/de/pronto-moda/kleider">
+    	<link rel="alternate" hreflang="en" href="https://www.fashionpo.com/en/fast-fashion/dresses">
+		<link rel="alternate" hreflang="en-ie" href="https://www.fashionpo.com/en/fast-fashion/dresses">
+    	<link rel="alternate" hreflang="en-gb" href="https://www.fashionpo.com/en/fast-fashion/dresses">
+    	<link rel="alternate" hreflang="en-mt" href="https://www.fashionpo.com/en/fast-fashion/dresses">
+    	<link rel="alternate" hreflang="es" href="https://www.fashionpo.com/es/pronto-moda/vestidos">
+		<link rel="alternate" hreflang="es-es" href="https://www.fashionpo.com/es/pronto-moda/vestidos">
+    	<link rel="alternate" hreflang="es-pt" href="https://www.fashionpo.com/es/pronto-moda/vestidos">
+    	<link rel="alternate" hreflang="fr" href="https://www.fashionpo.com/fr/fast-fashion/robes">
+		<link rel="alternate" hreflang="fr-fr" href="https://www.fashionpo.com/fr/fast-fashion/robes">
+    	<link rel="alternate" hreflang="fr-be" href="https://www.fashionpo.com/fr/fast-fashion/robes">
+    	<link rel="alternate" hreflang="fr-lu" href="https://www.fashionpo.com/fr/fast-fashion/robes">
+    	<link rel="alternate" hreflang="it" href="https://www.fashionpo.com/it/pronto-moda/abiti">
+		<link rel="alternate" hreflang="it-it" href="https://www.fashionpo.com/it/pronto-moda/abiti">
+    	<link rel="alternate" hreflang="pt" href="https://www.fashionpo.com/pt/pronto-moda/vestidos-mulher">
+		<link rel="alternate" hreflang="pt-pt" href="https://www.fashionpo.com/pt/pronto-moda/vestidos-mulher">
+    	<link rel="alternate" hreflang="pt-es" href="https://www.fashionpo.com/pt/pronto-moda/vestidos-mulher">
+            <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+	gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied',
+    });
+    </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5LR4BND');</script>	</head>
+	<body>
+        
 
-        section {
-            padding: 20px;
-        }
-
-        #products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .product {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin: 10px;
-            padding: 15px;
-            background-color: white;
-            width: 200px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .product h3 {
-            margin: 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #333;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        button {
-            background: #007BFF;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Wholesale Clothing Store</h1>
-        <nav>
-            <ul>
-                <li><a href="#about" style="color: white;">About Us</a></li>
-                <li><a href="#products" style="color: white;">Products</a></li>
-                <li><a href="#contact" style="color: white;">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to our wholesale clothing store! We offer a wide range of clothing for all occasions at unbeatable prices. Explore our collection!</p>
-    </section>
-
-    <section id="products">
-        <h2>Our Products</h2>
-        <div class="product">
-            <h3>Men's T-Shirt</h3>
-            <p>Price: $10.00</p>
-            <button>Add to Cart</button>
+<div class="notify mx-auto mt-2 toast white" role="alert" aria-live="assertive">
+    <div class="toast-body notify-body px-3 fw-bold">
+    </div>
+</div>
+<div class="modal fade" id="modal-confirm" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content dark">
+            <div class="modal-body py-3">
+                <div class="modal-confirm-msg ms-2 text-lg"></div>
+                <div class="d-flex justify-content-end mt-3">
+                    <button class="dismissBtn btn btn-fp-grey text-md fw-bold me-2 px-3 text-uppercase" data-bs-dismiss="modal">Cancel</button>
+                    <button class="confirm-remove btnConfirmDefaultHidden btn btn-fp-danger text-md fw-bold d-none px-3 text-uppercase">Remove</button>
+                    <button class="confirm-delete btnConfirmDefaultHidden btn btn-fp-danger text-md fw-bold d-none px-3 text-uppercase">Delete</button>
+                    <button class="confirm-delete-account btnConfirmDefaultHidden btn btn-fp-danger text-md fw-bold d-none px-3 text-uppercase">delete account</button>
+                    <button class="confirm-apply btnConfirmDefaultHidden btn btn-fp-primary text-md fw-bold d-none px-3 text-uppercase">Apply</button>
+                    <button class="confirm-empty btnConfirmDefaultHidden btn btn-fp-danger text-md fw-bold d-none px-3 text-uppercase">Empty</button>
+                    <button class="confirm-confirmation btnConfirmDefaultHidden btn btn-fp-primary text-md fw-bold d-none px-3 text-uppercase">Confirm</button>
+                </div>
+            </div>
         </div>
-        <div class="product">
-            <h3>Women's Dress</h3>
-            <p>Price: $25.00</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <h3>Children's Jacket</h3>
-            <p>Price: $20.00</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <h3>Men's Jeans</h3>
-            <p>Price: $30.00</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <h3>Women's Blouse</h3>
-            <p>Price: $15.00</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <h3>Kids' T-Shirt</h3>
-            <p>Price: $8.00</p>
-            <button>Add to Cart</button>
-        </div>
-    </section>
+    </div>
+</div>
+<div class="modal fade" id="cookieModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header pb-0">
+                    <div class="text-center w-100 text-lg  ms-1">Customize</div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <form>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input fp-checkbox cookie-checkbox" type="checkbox" id="essential" name="essential" checked disabled>
+                            <label class="form-check-label text-md" for="essential">
+                                <span class="fw-bold text-md">Essential</span>
+                                <br><span>These allow safe and efficient operation and exploration of the website.</span>
+                            </label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input fp-checkbox cookie-checkbox" type="checkbox" id="benchmark" name="benchmark" >
+                            <label class="form-check-label text-md" for="benchmark">
+                                <span class="fw-bold text-md">Analytical & Performance</span>
+                                <br><span>These allow safe and efficient operation and exploration of the website.</span>
+                            </label>
+                            
+                        </div>
+                        <div class="form-check mt-3">
+                            <input class="form-check-input fp-checkbox cookie-checkbox" type="checkbox" id="marketing" name="marketing" >
+                            <label class="form-check-label text-md" for="marketing">
+                                <span class="fw-bold text-md">Marketing</span>
+                                <br><span>They help measure marketing effectiveness, they are also used to show advertisements that are relevant to you by limiting the number of times you see an advertisement.</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-fp-dark white text-lg fw-bold px-4 cbenablecustom mx-auto" data-prevurl="/en/fast-fashion/dresses">Save preferences</button>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="sticky-buttons">
+	</div>
+<div class="d-none">
+    <span id="missing-field">Some fields are incorrect or incomplete, please check and try again.</span>
+    <span id="scegli-indirizzo-spedizione">Please choose a shipping address</span>
+    <span id="scegli-metodo-pagamento">Choose a payment method</span>
+    <span id="scegli-metodo-spedizione">Choose a shipping method</span>
+    <span id="vuoi-rimuovere-articolo">Do you really want to remove this item from your cart?</span>
+    <span id="vuoi-rimuovere-articolo-wishlist">Do you really want to remove this item from your wishlist?</span>
+    <span id="vuoi-eliminare-elemento">Do you really want to delete the selected item?</span>
+    <span id="inserisci-codice-coupon">Enter the coupon code</span>
+    <span id="preferenze-salvate">Preferences saved</span>
+    <span id="modifiche-apportate">Changes made</span>
+    <span id="messaggio-inviato">Message sent</span>
+    <span id="coupon-correttamente-applicato-carrello">Coupon correctly applied on the cart</span>
+    <span id="carrello-vuoto">your cart is empty</span>
+    <span id="inserisci-quantita">Enter the desired quantities</span>
+    <span id="carrello-aggiornato">Cart updated</span>
+    <span id="vai-carrello">Go to cart</span>
+    <span id="addtocart">Add to cart</span>
+    <span id="updatecart">Update cart</span>
+    <span id="aggiungi-foto">Add photo</span>
+    <span id="seleziona-articolo">Select an item</span>
+    <span id="inserisci-foto">Insert at least one photo for each garment</span>
+    <span id="vedi-tutto">View all</span>
+    <span id="svuotare-carrello">Are you sure you want to empty your cart?</span>
+    <span id="elimina-account-warning">Clicking the "delete account" button will permanently delete your fashionpo.com account. Your details will be deleted from fashionpo.com and you will no longer be able to access your private area.</span>
+    <span id="codice-iban">IBAN code</span>
+    <span id="paypal-email">PayPal Email</span>
+    <span id="vuoi-rimuovere-preferenza">Do you really want to remove this refund preference?</span>
+    <span id="vuoi-rimuovere-trademark">vuoi-rimuovere-trademark</span>
+    <span id="vuoi-rimuovere-indirizzo">vuoi-rimuovere-indirizzo</span>
+    <span id="elimina-ordine">By clicking on "Delete order", your order will be deleted permanently. Anyway, you can place a new order whenever you want.</span>
+    <span id="accetta-ordine">By clicking on  "accept order", you are accepting this order with the availability we notified you.</span>
+    <span id="stop-following-brand">Delete from followed brands?</span>
+    <span id="msg-conferma-invio-reclamo">If you continue, you will send the complaint and it will no longer be possible to modify it.</span>
+    <span id="vuoi-rimuovere-articolo-reclamo">Do you want to remove this article from the complaint?</span>
+    <span id="visualizza-brand-seguiti">View followed brand</span>
+    <span id="visualizza-wishlist">View wishlist</span>
+    <span id="vuoi-rimuovere-wishlist">Do you really want to remove this wishlist?</span>
+    <span id="item-added">Item added</span>
+    <span id="attention">Attention</span>
+    <span id="msg-new-mail-confirm">You are updating your email address. To complete the change you will need to click on the confirmation link that you will receive at the new address.</span>
+</div><header class="header fixed-top w-100 border-bottom bg-light">    
+    <div>
+        <div class="container header-container">
+            <div class="row mx-3 d-flex justify-content-between">
+                <div class="head-1 align-items-center d-flex justify-content-start w-50 py-1 ps-0 pe-2">
+                    <div class="me-2 d-lg-none">
+                        <a class="btn btn-transparent w-100 h-100" id="btnOpenMobileNav" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-label="Menu" aria-controls="offcanvasMenu">
+                            <i class="fa fa-bars fa-xl text-navbar"></i>
+                        </a>
+                    </div>                            
+                    <div class="logo">
+                        <a href="/en">
+                            <picture>
+                                <source srcset="/public/img/logo-flag.webp" type="image/webp">
+                                <img src="/public/img/logo-flag.png" class="img-fluid" alt="FashionPO, Online Women's Clothing Wholesale" width="160" height="35">
+                            </picture>
+                        </a>
+                    </div>   
+                </div>
+                                <div class="d-none d-lg-block p-0" style="width: 60%">
+                    <div id="desktop-searchbar" class="search-bar-container w-100 align-items-center d-flex px-2 bg-white bg-opacity-75 rounded border">
+                    	<label for="navsearchbar" class="visually-hidden">search</label>
+                        <input id="navsearchbar" type="text" class="search-bar w-100" value="">
+                        <button class="search-bar-icon btn btn-transparent h-100" type="button" aria-label="Search"> 
+                            <i class="fa fa-search text-navbar"></i>
+                        </button>
+                    </div>
+                    <div id="desktop-autocompletion" class="nav-autocompletion d-none search-scrollbar bg-light">
+                        <ul class="nav-autocompletion-list list-group list-group-flush text-navbar"></ul>
+                    </div>
+                </div>
+                                <div class="head-2 align-items-center d-flex justify-content-end w-50 px-0">
+                	<div class="ms-3 ">
+                        <a href="/en/login?target=/en/account" class="btnUser btn btn-transparent w-100 h-100" aria-label="Account">
+                            <i class="fa fa-user fa-md text-navbar"></i> <span class="d-none">Account</span>
+                        </a>
+                                            </div>
+                	<div class="ms-3">
+                        <a href="/en/login?target=/en/wallet" class="btn btn-transparent w-100 h-100" aria-label="Wallet">
+                            <i class="fa-solid fa-coins fa-md text-navbar"></i> <span class="d-none">Wallet</span>
+                        </a>
+                    </div>
+                    <div class="ms-3 d-none d-md-block d-lg-block">
+                        <a href="/en/login?target=/en/wishlist" class="btn btn-transparent w-100 h-100" aria-label="Wishlist">
+                            <i class="fa-solid fa-heart fa-md text-navbar"></i> <span class="d-none">Wishlist</span>
+                        </a>
+                    </div>
+                    <div class="ms-3 d-flex align-items-center">
+                        <a href="/en/login?target=/en/cart" class="btnCart text-nowrap btn btn-transparent w-100 h-100 me-1" aria-label="Cart">
+                            <i class="fa fa-cart-shopping fa-md text-navbar"></i> <span class="d-none">Cart</span>
+                                                <span id="cartCounter" class="cart-number fw-bold text-navbar"></span>
+                        </a>
+                    </div>   
+                </div>
+            </div>
+                        <div class="d-none d-lg-block">
+                <div class="row mt-3 mx-3">
+                    <div class="d-flex align-items-center justify-content-start w-75 p-0 mt-1">
+                                                    <div class="nav-option-margin">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/new-in">
+                                    New in                                </a>
+                            </div>
+                                                    <div class="dropdown nav-option-margin nav-catalog-entry nav-catalog-entry-1">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap nav-catalog-link text-navbar" href="/en/fast-fashion" id="dropdown_fast-fashion" data-bs-toggle="dropdown">
+                                    Clothing                                </a>
+                                <ul class="dropdown-menu columns" style="z-index:99999;" aria-labelledby="dropdown_fast-fashion">
 
-    <footer>
-        <h3>Contact Us</h3>
-        <p>Email: info@wholesalestore.com</p>
-        <p>Phone: +1 234 567 8901</p>
-    </footer>
-</body>
+                                </ul>
+                            </div>
+                                                    <div class="dropdown nav-option-margin nav-catalog-entry nav-catalog-entry-15">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap nav-catalog-link text-navbar" href="/en/women-underwear" id="dropdown_women-underwear" data-bs-toggle="dropdown">
+                                    Underwear                                </a>
+                                <ul class="dropdown-menu columns" style="z-index:99999;" aria-labelledby="dropdown_women-underwear">
+
+                                </ul>
+                            </div>
+                                                    <div class="dropdown nav-option-margin nav-catalog-entry nav-catalog-entry-5">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap nav-catalog-link text-navbar" href="/en/accessories" id="dropdown_accessories" data-bs-toggle="dropdown">
+                                    Accessories                                </a>
+                                <ul class="dropdown-menu columns" style="z-index:99999;" aria-labelledby="dropdown_accessories">
+
+                                </ul>
+                            </div>
+                                                    <div class="dropdown nav-option-margin nav-catalog-entry nav-catalog-entry-13">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap nav-catalog-link text-navbar" href="/en/shoes" id="dropdown_shoes" data-bs-toggle="dropdown">
+                                    Shoes                                </a>
+                                <ul class="dropdown-menu columns" style="z-index:99999;" aria-labelledby="dropdown_shoes">
+
+                                </ul>
+                            </div>
+                                                    <div class="nav-option-margin">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/bargains">
+                                    Outlet                                </a>
+                            </div>
+                                                    <div class="nav-option-margin">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/brands">
+                                    Brands                                </a>
+                            </div>
+                                            </div>
+                    <div class="d-flex align-items-center justify-content-end w-25 p-0 mt-1">
+                                                    <div class="nav-option-margin">
+                                <a class="nav-option underline-effect fw-bold text-nowrap text-uppercase text-navbar" href="/en/about-us">
+                                    About Us                                </a>
+                            </div>
+                                                <div class="ms-2">
+                            <div class="dropdown">
+                                                                <a href="#" role="button" id="lingueDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Language">
+                                    <div class="flag-cell d-flex align-items-center">
+                                        <span class="flag fib fi-gb"></span>
+                                    </div> 
+                                </a>
+                                <ul class="dropdown-menu lang-dropdown bg-light" aria-labelledby="lingueDropdown" style="padding: 0px !important">
+                                    <li class="border">
+                                        <a aria-label="en" class="dropdown-item lang-item" href="/en/fast-fashion/dresses">
+                                            <div class="flag-cell d-flex align-items-center">
+                                                <span class="flag fib fi-gb"></span>
+                                                <span class="flag-title ms-2 fp-red fw-bold text-uppercase text-md">en</span>
+                                            </div> 
+                                        </a>
+                                    </li>
+                                                                                <li class="border-bottom border-end border-start hover">
+                                                <a aria-label="it" class="dropdown-item lang-item" href="/it/pronto-moda/abiti">
+                                                    <div class="flag-cell d-flex align-items-center">
+                                                        <span class="flag fib fi-it"></span>
+                                                        <span class="flag-title ms-2 text-md fw-bold text-navbar text-uppercase">it</span>
+                                                    </div> 
+                                                </a>
+                                            </li>        
+                                                                                    <li class="border-bottom border-end border-start hover">
+                                                <a aria-label="de" class="dropdown-item lang-item" href="/de/pronto-moda/kleider">
+                                                    <div class="flag-cell d-flex align-items-center">
+                                                        <span class="flag fib fi-de"></span>
+                                                        <span class="flag-title ms-2 text-md fw-bold text-navbar text-uppercase">de</span>
+                                                    </div> 
+                                                </a>
+                                            </li>        
+                                                                                    <li class="border-bottom border-end border-start hover">
+                                                <a aria-label="fr" class="dropdown-item lang-item" href="/fr/fast-fashion/robes">
+                                                    <div class="flag-cell d-flex align-items-center">
+                                                        <span class="flag fib fi-fr"></span>
+                                                        <span class="flag-title ms-2 text-md fw-bold text-navbar text-uppercase">fr</span>
+                                                    </div> 
+                                                </a>
+                                            </li>        
+                                                                                    <li class="border-bottom border-end border-start hover">
+                                                <a aria-label="es" class="dropdown-item lang-item" href="/es/pronto-moda/vestidos">
+                                                    <div class="flag-cell d-flex align-items-center">
+                                                        <span class="flag fib fi-es"></span>
+                                                        <span class="flag-title ms-2 text-md fw-bold text-navbar text-uppercase">es</span>
+                                                    </div> 
+                                                </a>
+                                            </li>        
+                                                                                    <li class="border-bottom border-end border-start hover">
+                                                <a aria-label="pt" class="dropdown-item lang-item" href="/pt/pronto-moda/vestidos-mulher">
+                                                    <div class="flag-cell d-flex align-items-center">
+                                                        <span class="flag fib fi-pt"></span>
+                                                        <span class="flag-title ms-2 text-md fw-bold text-navbar text-uppercase">pt</span>
+                                                    </div> 
+                                                </a>
+                                            </li>        
+                                                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none">
+                <div class="row mt-3">
+                    <div class="grid-menu container d-flex py-2 mx-auto">        
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/new-in">
+                                    New in                                </a>
+                            </div>
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/fast-fashion">
+                                    Clothing                                </a>
+                            </div>
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/women-underwear">
+                                    Underwear                                </a>
+                            </div>
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/accessories">
+                                    Accessories                                </a>
+                            </div>
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/shoes">
+                                    Shoes                                </a>
+                            </div>
+                                                    <div class="mx-2 ">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/bargains">
+                                    Outlet                                </a>
+                            </div>
+                                                    <div class="mx-2 pe-4">
+                                <a class="nav-option underline-effect fw-bold text-uppercase text-nowrap text-navbar" href="/en/brands">
+                                    Brands                                </a>
+                            </div>
+                                            </div>
+                </div>                
+            </div>
+        </div>              
+    </div>  
+</header>
+
+<nav class="nav offcanvas offcanvas-start"  tabindex="-1" id="offcanvasMenu" style=""> 
+    <div class="nav-body offcanvas-body p-0 bg-light">
+        <div class="bg-light" style="">
+            <div class="d-flex justify-content-between">
+                <div class="ms-4 d-flex align-items-center py-3">
+                                            <a class="ms-3 btn btn-pill btn-fp-dark py-2" href="/en/login?target=/en/fast-fashion/dresses">Sign In</a>
+                        <div class="ms-2 text-md mt-2 text-nowrap">
+                            or <a class="fp-red fw-bold ms-1" href="/en/registration">Sign up</a>
+                        </div>
+                                    </div>
+                <div>
+                    <button type="button" class="btn-close btn-transparent text-reset mt-3 me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <div style="">
+            <div id="navbar-page-1">
+            	            	<div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 btn-language" href="#" aria-label="Language">
+                    	<span class="text-md fw-bold text-uppercase text-muted">Language<img src="/public/img/flags/circle/en@2x.png" class="ms-2" style="width:16px !important;height:16px !important;"></span>
+                        <span><i class="fa-solid fa-angle-right text-muted"></i></span>
+                    </a>
+                    <div class="d-none divLanguage" data-url="" data-label="Language">
+										    <span class="spanLanguage" data-url="/it/pronto-moda/abiti" data-label="Italiano" data-divstyle="/public/img/flags/circle/it@2x.png"></span>
+										    <span class="spanLanguage" data-url="/en/fast-fashion/dresses" data-label="English" data-divstyle="/public/img/flags/circle/en@2x.png"></span>
+										    <span class="spanLanguage" data-url="/de/pronto-moda/kleider" data-label="Deutsch" data-divstyle="/public/img/flags/circle/de@2x.png"></span>
+										    <span class="spanLanguage" data-url="/fr/fast-fashion/robes" data-label="Français" data-divstyle="/public/img/flags/circle/fr@2x.png"></span>
+										    <span class="spanLanguage" data-url="/es/pronto-moda/vestidos" data-label="Español" data-divstyle="/public/img/flags/circle/es@2x.png"></span>
+										    <span class="spanLanguage" data-url="/pt/pronto-moda/vestidos-mulher" data-label="Português" data-divstyle="/public/img/flags/circle/pt@2x.png"></span>
+					                    </div>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 "
+                        href="/en/new-in" data-id="6">
+                        <span class="text-md fw-bold text-uppercase text-muted">New in</span>
+                        <span></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 btn-catalogo"
+                        href="/en/fast-fashion" data-id="1">
+                        <span class="text-md fw-bold text-uppercase text-muted">Clothing</span>
+                        <span><i class="fa-solid fa-angle-right text-muted"></i></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 btn-catalogo"
+                        href="/en/women-underwear" data-id="15">
+                        <span class="text-md fw-bold text-uppercase text-muted">Underwear</span>
+                        <span><i class="fa-solid fa-angle-right text-muted"></i></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 btn-catalogo"
+                        href="/en/accessories" data-id="5">
+                        <span class="text-md fw-bold text-uppercase text-muted">Accessories</span>
+                        <span><i class="fa-solid fa-angle-right text-muted"></i></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 btn-catalogo"
+                        href="/en/shoes" data-id="13">
+                        <span class="text-md fw-bold text-uppercase text-muted">Shoes</span>
+                        <span><i class="fa-solid fa-angle-right text-muted"></i></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 "
+                        href="/en/bargains" data-id="3">
+                        <span class="text-md fw-bold text-uppercase text-muted">Outlet</span>
+                        <span></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 "
+                        href="/en/brands" data-id="0">
+                        <span class="text-md fw-bold text-uppercase text-muted">Brands</span>
+                        <span></span>
+                    </a>
+                </div>
+                                <div class="bg-light panel-border bg-light">
+                    <a class="d-flex align-items-center justify-content-between text-decoration-none text-lg fw-bold px-4 py-3 text-navbar" href="/en/about-us" >
+                        <span class="text-md fw-bold text-uppercase text-muted">About Us</span>
+                        <span></span>
+                    </a>
+                </div>
+                                <div class="social-container my-2 w-100 bg-light d-flex flex-wrap justify-content-center align-items-center bg-light">
+            <a class="btn btn-transparent dark me-2" href="https://api.whatsapp.com/send?phone=+390574729286" target="_blank" aria-label="Whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://www.facebook.com/fashionpo/" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://www.instagram.com/fashionpo/" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://www.youtube.com/channel/UC7H0ShMMjZQ6cS1pkCP1YaQ" target="_blank" aria-label="Youtube">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://twitter.com/fashion_po" target="_blank" aria-label="Twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://www.linkedin.com/company/fashionpo-ingrosso-abbigliamento-donna" target="_blank" aria-label="Linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a class="btn btn-transparent dark me-2" href="https://www.pinterest.com/fashionpo/" target="_blank" aria-label="Pinterest">
+        <i class="fa-brands fa-pinterest-p"></i>
+    </a>
+        </div>
+            </div>
+            <div id="navbar-page-2">
+            </div>
+        </div>
+    </div>
+</nav>        <div class="content">
+        	            <span class="d-none grid-data" data-raggruppamento="0" data-catalogo-padre="1" data-categoria="1" 
+                data-catalogo-speciale="" data-iso="en"
+                data-uri="/en/fast-fashion/dresses"></span>
+
+                        <div class="bg-white">
+            	<div class="container">
+	<div class="w-100 pt-2 pb-2 d-none d-lg-block ms-3">
+			<button type="button" class="me-4 text-md btn btn-outline-secondary btn-xs" onclick="window.history.go(-1)"><i class="fa fa-chevron-left"></i> Back</button>
+                      <a href="/en" class="me-1 text-md">Home</a>
+                 <span class="me-1 text-md dark">&gt;</span>
+                              <a href="/en/fast-fashion" class="me-1 text-md">Clothing</a>
+                 <span class="me-1 text-md dark">&gt;</span>
+                          	<span class="me-1 text-md dark">Dresses</span>
+                  </div>
+</div>            	<div class="container border-top" style="">
+    <div class="grid-menu py-2 text-end">           
+                                <a class="btn btn-fp-grey text-md me-2" href="/en/login?target=/en/fast-fashion/dresses" role="button"><i class="fa fa-arrow-down-wide-short fa-lg me-2"></i>Sort by</a>
+                <a class="btn btn-fp-primary text-md" href="/en/login?target=/en/fast-fashion/dresses" role="button">
+            <span class="d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-sliders fa-lg me-2" style="transform: rotate(90deg); margin-right: 1px;"></i> Filter                <span class="ms-2 badge text-sm filters-quantity rounded-pill bg-danger filters-badge d-none">
+                    0                </span>
+            </span>
+        </a>
+            </div>
+</div>                <div class="container">
+                    <div class="text-center w-100 pt-2">
+    <span class="fw-bold text-xl text-uppercase dark">
+    	Dresses    </span>
+</div>                </div>
+                <div class="container">
+                    <div class="row mx-2 mt-3 grid-parent">
+                            <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/snake-print-dress-270184" target="_self" aria-label="Snake print Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P63240014207.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P63240014207.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P63240014207.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Snake print Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Snake print Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #0000ff"></div>
+                                                <div class="grid-item-color" style="background-color: #8c0000"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/faux-leather-long-sleeve-cotton-dress-with-v-neck-270322" target="_self" aria-label="faux leather long sleeve Cotton Dress with v-neck">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P15M2240014344.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P15M2240014344.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P15M2240014344.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="faux leather long sleeve Cotton Dress with v-neck">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            faux leather long sleeve Cotton Dress with v-neck        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                <div class="grid-item-color" style="background-color: #000080"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/abstract-print-cotton-dress-270737" target="_self" aria-label="Abstract print Cotton Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P15M2240014757.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P15M2240014757.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P15M2240014757.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Abstract print Cotton Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                        <div class="w-100 text-end">
+                        <span class="text-sm badge bg-success me-1">NEW</span>                    </div>
+                                                            <div class="w-100 text-end">
+                        <span class="text-sm badge bg-danger me-1">-2%</span>                    </div>
+                                    </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                            <div class="w-100">
+                        <span class="text-sm badge bg-warning ms-1 text-uppercase">plus size</span>                    </div>    
+                                    </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Abstract print Cotton Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/patterned-dress-with-hood-270691" target="_self" aria-label="Patterned Dress with hood">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P123240014711.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P123240014711.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P123240014711.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Patterned Dress with hood">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Patterned Dress with hood        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #ffffff"></div>
+                                                <div class="grid-item-color" style="background-color: #ffc0cb"></div>
+                                                <div class="grid-item-color" style="background-color: #dec8a9"></div>
+                                                <div class="grid-item-color" style="background-color: #808080"></div>
+                                                <div class="grid-item-color" style="background-color: #cd7f32"></div>
+                                                <div class="grid-item-color" style="background-color: #ffd800"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/floral-shirt-dress-270865" target="_self" aria-label="Floral Shirt dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P63240014884.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P63240014884.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P63240014884.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Floral Shirt dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                        <div class="w-100 text-end">
+                        <span class="text-sm badge bg-success me-1">NEW</span>                    </div>
+                                                            <div class="w-100 text-end">
+                        <span class="text-sm badge bg-danger me-1">-2%</span>                    </div>
+                                    </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Floral Shirt dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #ff0000"></div>
+                                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                <div class="grid-item-color" style="background-color: #dec8a9"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/floral-cotton-dress-with-pockets-269723" target="_self" aria-label="Animal print knee-length crew neck Cotton Dress with pockets 3/4 sleeve">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P123240013750.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P123240013750.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P123240013750.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Animal print knee-length crew neck Cotton Dress with pockets 3/4 sleeve">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Animal print knee-length crew neck Cotton Dress with pockets 3/4 sleeve        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #ff0000"></div>
+                                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                <div class="grid-item-color" style="background-color: #b6a287"></div>
+                                                <div class="grid-item-color" style="background-color: #ffe4c4"></div>
+                                                <div class="grid-item-color" style="background-color: #d2b48c"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-270698" target="_self" aria-label="Casual Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P150240014718.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P150240014718.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P150240014718.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Casual Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                        <div class="w-100 text-end">
+                        <span class="text-sm badge bg-success me-1">NEW</span>                    </div>
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Casual Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-270236" target="_self" aria-label="Casual Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P8M2240014259.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P8M2240014259.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P8M2240014259.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Casual Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Casual Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #0000ff"></div>
+                                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                <div class="grid-item-color" style="background-color: #7ba05b"></div>
+                                                <div class="grid-item-color" style="background-color: #fffff0"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-270469" target="_self" aria-label="Casual Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P8M2240014491.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P8M2240014491.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P8M2240014491.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Casual Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Casual Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #0000ff"></div>
+                                                <div class="grid-item-color" style="background-color: #ffffff"></div>
+                                                <div class="grid-item-color" style="background-color: #173920"></div>
+                                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                <div class="grid-item-color" style="background-color: #050402"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-269813" target="_self" aria-label="Casual Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P8M2240013839.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P8M2240013839.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P8M2240013839.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Casual Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Casual Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #ffffff"></div>
+                                                <div class="grid-item-color" style="background-color: #ffc0cb"></div>
+                                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                <div class="grid-item-color" style="background-color: #dec8a9"></div>
+                                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                <div class="grid-item-color" style="background-color: #488495"></div>
+                                                <div class="grid-item-color" style="background-color: #fffff0"></div>
+                                                                                        <span class="text-md text-muted" style="position: relative; bottom: 2px;">...</span>
+                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-269736" target="_self" aria-label="long sleeve pencil puff sleeve crew neck Dress with pearls">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P63240013762.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P63240013762.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P63240013762.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="long sleeve pencil puff sleeve crew neck Dress with pearls">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            long sleeve pencil puff sleeve crew neck Dress with pearls        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #fffff0"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/casual-dress-268834" target="_self" aria-label="short sleeve crew neck knee-length Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P63240012865.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P63240012865.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P63240012865.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="short sleeve crew neck knee-length Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            short sleeve crew neck knee-length Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #0000ff"></div>
+                                                <div class="grid-item-color" style="background-color: #ffead5"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/animal-print-long-sleeve-shirt-dress-with-buttons-269877" target="_self" aria-label="Animal print long sleeve Shirt dress with buttons">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P15M2240013903.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P15M2240013903.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P15M2240013903.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="Animal print long sleeve Shirt dress with buttons">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                            <div class="w-100">
+                        <span class="text-sm badge bg-warning ms-1 text-uppercase">plus size</span>                    </div>    
+                                    </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            Animal print long sleeve Shirt dress with buttons        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #964b00"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/long-sleeve-asymmetrical-cotton-dress-270323" target="_self" aria-label="long sleeve asymmetrical Cotton Dress">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P15M2240014345.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P15M2240014345.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P15M2240014345.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="long sleeve asymmetrical Cotton Dress">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            long sleeve asymmetrical Cotton Dress        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #000000"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/denim-cotton-dress-with-pockets-269490" target="_self" aria-label="denim crew neck oversized Cotton Dress with pockets">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P15M2240013519.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P15M2240013519.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P15M2240013519.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="denim crew neck oversized Cotton Dress with pockets">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                            <div class="w-100">
+                        <span class="text-sm badge bg-warning ms-1 text-uppercase">plus size</span>                    </div>    
+                                    </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            denim crew neck oversized Cotton Dress with pockets        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #1560bd"></div>
+                                                        
+        </div>
+                    
+    </div>
+    <div class="col-6 col-md-3 col-lg-3 p-3 grid-cell brand-cell">
+        <a href="/en/fast-fashion/dresses/long-dress-boat-neckline-270211" target="_self" aria-label="long Dress boat neckline">
+    <div class="grid-item w-100">
+        <picture>
+            <source srcset="/public/img/articoli/thumb/P219M2240014234.webp" type="image/webp">
+        <source srcset="/public/img/articoli/thumb/P219M2240014234.jpg" type="image/jpeg">
+        <img src="/public/img/articoli/thumb/P219M2240014234.jpg" class="img-fluid w-100" loading="lazy" width="350" height="500" alt="long Dress boat neckline">
+</picture>        <div class="overlay grid-item-overlay">
+            <div class="h-50 d-flex align-items-start">
+            	<div class="w-50">
+            		            	</div>
+                <div class="w-50">
+                                                        </div>
+            </div>
+            <div class="h-50 d-flex align-items-end w-100">
+            	<div class="w-100">
+                                                        </div>
+            </div>
+        </div>
+        <div class="overlay grid-item-hover">
+            <div class="h-100 d-flex align-items-end">
+                <div class="w-100 text-center text-md fw-bold mb-2 px-2">
+                    <i class="fa fa-search white fa-xl mb-3"></i>
+                </div>                                                            
+            </div>
+        </div>
+    </div>
+</a>                   
+        <div class="w-100 text-lg dark mb-1 text-truncate">
+            long Dress boat neckline        </div>     
+        <div class="d-flex" style="min-height: 20px">
+                                <div class="grid-item-color" style="background-color: #fffff0"></div>
+                                                <div class="grid-item-color" style="background-color: #120a8f"></div>
+                                                        
+        </div>
+                    
+    </div>
+                    </div>
+                    <div class="w-100 text-center ">
+                        
+<button type="button" class="btn btn-fp-dark btn-pill m-auto mt-5 mb-5 load-more lmregister" data-redirect="/en/login?target=/en/fast-fashion/dresses" data-type="grid" data-next="2"> See more </button>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="bg-white pb-2">
+	<div class="container py-4">
+		        <div class="seo-h1"><h1 class="fs-2 text-center"><b>Casual and Elegant Dresses for Women</b></h1></div>
+                <div class="seo-breve-introduzione"><p class="fs-6 text-justify">The FashionPo wholesale <strong>dress</strong> catalogue offers a wide range of ready-to-wear fashion items made of different materials. In this catalogue you will find <strong>sleeveless dresses</strong> and<strong> shirt-dresses</strong> in a wide range of colours and patterns, with appliques, prints or plain colours. Browse our proposals and choose the most suitable supply for your shop. Our garments are presented in casual, sporty or elegant styles. Depending on the combination, type of packaging and composition. For information on the composition you can refer to the captions found on each product, as well as the fit of the garment with reference to the size of the model wearing it. If you have any further questions, please contact our <a href="https://www.fashionpo.com/en/contacts">customer service</a> team, who are always available to answer any questions you may have about your purchases.</p></div>
+                <div class="seo-titolo-inferiore mt-5"><h2 class="fs-4 text-xl text-center">Women's Evening Dresses, Casual & Elegant Dresses Wholesale</h2></div>
+                <div class="seo-testo mt-3"><p class="fs-6 text-justify">FashionPo, the Italian B2B online women's clothing is aimed exclusively at clothing retailers who want to find a quick and easy way to buy wholesale supplies for their shop. Browse our assortment of <strong>dresses</strong> and choose the one that best suits the target of your shop. In this catalogue you will find shirt <strong>dresses</strong> combined with FashionPo <a href="https://www.fashionpo.com/en/shoes">shoes </a>and <a href="https://www.fashionpo.com/en/accessories">accessories</a>. If you're looking for a sporty look, you can combine<strong> t-shirt dresses</strong> with <a href="https://www.fashionpo.com/en/shoes/sports-shoes-sneakers-women">trainers</a>. If, on the other hand, you're looking for more elegant items, look at those matched with <a href="https://www.fashionpo.com/en/shoes/heeled-shoes-women">heels</a>, and have fun matching them with <a href="https://www.fashionpo.com/en/accessories">accessories</a>, <a href="https://www.fashionpo.com/en/accessories/belts">belts</a>, <a href="https://www.fashionpo.com/en/accessories/bags">bags</a> and <a href="https://www.fashionpo.com/en/accessories/bags">handbags </a>so you can satisfy all your customers' requests. The FashionPo clothing <a href="https://www.fashionpo.com/en/new-in">catalogue </a>is updated daily, offering new items in line with the season and the latest trends.
+
+Stock your shop with clothes on FashionPo.com. It's easy, fast and smart!
+
+ 
+
+</p></div>
+                <div class="seo-titolo-estremo-inferiore mt-5"><h3 class="fs-5 text-center">FashionPo Clothes in your Shop Window</h3></div>
+                <div class="seo-testo-estremo-inferiore mt-3"><p class="fs-6 text-justify">
+
+If you own a physical shop, combine and display in your shop window the FashionPo ready-to-wear <a href="https://www.fashionpo.com/en/fast-fashion">clothes </a>with <a href="https://www.fashionpo.com/en/shoes">shoes </a>and <a href="https://www.fashionpo.com/en/accessories/belts">belts</a>, <a href="https://www.fashionpo.com/en/accessories/jewelry">necklaces and fashion bracelets</a> that you will find by browsing our catalogues. Following the trendy colours and the latest fashion, you will be able to look into our vast assortment of FashionPo <a href="https://www.fashionpo.com/en/accessories">accessories </a>and <a href="https://www.fashionpo.com/en/fast-fashion">clothing</a>, think about what your customers want, use your imagination and propose new looks. Don't forget to create a<a href="https://www.fashionpo.com/en/plus-size"> plus size</a> section in your shop. This way you will have thought of everything! If your shop is online, you can contact our <a href="https://www.fashionpo.com/en/contacts">customer service</a> to find out how to use our photos for your <a href="https://www.facebook.com/fashionpo">social network</a> pages!
+
+Always renew yourself, with FashionPo!</p></div>
+            </div>
+</div>
+        </div>
+        <div class="offcanvas offcanvas-end"  id="offcanvas-filtraggio">
+    <div class="offcanvas-header border">
+        <div class="px-3 text-xl" style="width: 95%">Filter</div>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body dark fp-scrollbar">
+        <form class="form-filters">
+    <div class="mx-3">
+        <span class="text-md">Product type</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="nome" name="nome" multiple>
+        </select>
+    </div>
+    <div class="mt-3 mx-3 filter-container-brands">
+        <span class="text-md">Brand</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="fornitore" name="fornitore" multiple>
+        </select>
+    </div> 
+    <div class="mt-3 mx-3">
+        <span class="text-md">Features</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="attributo" name="attributo" multiple>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Composition</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="materiale" name="materiale" multiple>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Collection</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="collezione" name="collezione" multiple>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Pattern</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="fantasia" name="fantasia" multiple>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Package</span>
+        <select class="fp-input form-select text-md mt-1 singular select2" id="package" name="package">
+            <option value="">No preference</option>
+            <option value="1">Sold as a set</option>
+            <option value="2">Sold separately</option>
+            <option value="3">Color package</option>
+            <option value="4">Size package</option>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Type of sale</span>
+        <select class="fp-input form-select text-md mt-1 singular select2" id="tipologia_vendita" name="tipologia_vendita">
+            <option value="">No preference</option>
+            <option value="1">Unlimited quantities</option>
+            <option value="0">Stock only</option>
+        </select>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Style</span>
+        <select class="fp-input form-select text-md mt-1 multiple select2" id="stile" name="stile" multiple>
+        </select>
+    </div>
+    <div class="mt-3 ms-3">
+        <span class="text-md">Colour</span>
+        <input type="hidden" name="colore" id="colore" value="">
+        <div class="colori mt-2">
+        </div>
+    </div>
+    <div class="mt-3 mx-3">
+        <span class="text-md">Price</span>
+        <div class="d-flex align-items-center mt-1">
+            <span class="text-sm fw-bold me-2 text-capitalize">from: </span>
+            <div class="input-group mt-1 small-input">
+                <span class="input-group-text dark text-md px-2">€</span>
+                <input type="number" name="da_prezzo" class="fp-input form-control text-md">
+            </div>
+            <span class="text-sm fw-bold ms-4 me-2 text-capitalize">to: </span>
+            <div class="input-group mt-1 small-input">
+                <span class="input-group-text dark text-md px-2">€</span>
+                <input type="number" name="a_prezzo" class="fp-input form-control text-md">
+            </div>
+        </div>
+    </div>
+</form>    </div>
+    <div class="offcanvas-header border">
+    	<button type="button" class="btn btn-fp-dark mx-auto text-lg my-2 btn-filter-apply" aria-label="Apply"><i class="fa-solid fa-check"></i> Apply</button>
+    	<button type="button" class="btn btn-transparent mx-auto text-lg my-2 text-uppercase d-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-close"></i></button>
+        <button type="button" class="btn btn-fp-grey mx-auto text-lg my-2 text-uppercase btn-filter-reset" aria-label="Reset"><i class="fa-solid fa-trash"></i></button>
+    </div>
+</div>
+<div class="offcanvas offcanvas-end"  id="offcanvas-ordinamento">
+    <div class="offcanvas-header border">
+        <div class="px-3 text-xl" style="width: 95%">Sort by</div>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body dark fp-scrollbar">
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 fp-red fw-bold" data-val="suggeritidesc">Featured</a>
+            </div>
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 dark" data-val="pubblicazionedesc">Latest</a>
+            </div>
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 dark" data-val="pubblicazioneasc">Less recent</a>
+            </div>
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 dark" data-val="prezzodesc">Price: highest to lowest</a>
+            </div>
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 dark" data-val="prezzoasc">Price: lowest to highest</a>
+            </div>
+                    <div class="border-bottom w-100">
+                <a href="#" class="text-start orderBy btn btn-xl py-3 w-100 dark" data-val="scontodesc">Discount: highest to lowest</a>
+            </div>
+            </div>
+</div>
+        <div class="section" style="background-color:#a40000;">
+    <div class="container py-2">
+        <div class="row">
+            <div class="col-12 col-md-3 d-flex">
+                <div class="w-100 h-75 m-auto text-end">
+                    <img class="h-100" src="/public/img/icons/mdi_faq.svg" loading="lazy" alt="Frequently asked questions" width="100" height="100" />
+                </div>
+            </div>
+                        <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="text-white text-xl m-auto" style="color:#fff7f2">
+                    <span class="fw-bold">Are you looking for answers?</span>
+                    <br>Check out our FAQ page!                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex">
+                <div class="m-auto w-100 text-start">
+                    <a href="/en/faq" class="btn btn-light my-3 text-uppercase text-md" target="_self" style="border-radius:100px;color:#a40000;border:none">
+                    	F.A.Q. <i class="ms-1 fa-solid fa-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div><div id="footer" class="container py-4 dark">
+    <div class="row">
+        <div class="col-12 col-lg-5 px-4">
+            <div class="d-lg-none">
+                <div class="accordion accordion-flush" id="ingrosso-accordion">
+                    <div class="accordion-item footer-section">
+                        <button class="accordion-button footer-button btn btn-transparent nav-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ingrosso-content" aria-expanded="false" aria-controls="ingrosso-content">
+                            <span class="container d-flex align-items-center justify-content-between dark">
+                                <span class="text-lg fw-bold text-uppercase">Wholesale FashionPo</span>
+                                <span><i class="fa fa-plus d-none"></i></span>
+                            </span>                                                
+                        </button>
+                        <div id="ingrosso-content" class="accordion-collapse collapse show"  data-bs-parent="#ingrosso-accordion">
+                            <div class="accordion-body pt-0 text-md text-justify bg-light-grey">
+                                FashionPo.com is an online wholesaler of women's clothing, focusing on ready-to-wear fashion, and serving as a channel between retailers and manufacturers. Keep up with the latest trends and shop for wholesale clothing supplies securely and easily.                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion accordion-flush" id="assistenza-accordion">
+                    <div class="accordion-item footer-section">
+                        <button class="accordion-button footer-button btn btn-transparent nav-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#assistenza-content" aria-expanded="false" aria-controls="assistenza-content">
+                            <span class="container d-flex align-items-center justify-content-between dark">
+                                <span class="text-lg fw-bold text-uppercase">Customer service</span>
+                                <span><i class="fa fa-plus d-none"></i></span>
+                            </span>                                                
+                        </button>
+                        <div id="assistenza-content" class="accordion-collapse collapse show"  data-bs-parent="#assistenza-accordion">
+                            <div class="accordion-body pt-0 text-lh text-justify bg-light-grey">
+                                <div class="mt-2"><p class="text-md">MON-FRI 09:00-13:00 / 14:00-18:00</p></div>
+                                <div class="mt-2"><p class="text-md"><i class="fa-solid fa-square-phone fa-xl me-2"></i> +39 0574 729286</p></div>
+                                <div class="mt-2"><p class="text-md"><i class="fa-solid fa-square-envelope fa-xl me-2"></i> info@fashionpo.com</p></div>
+                                <div class="mt-2"><p class="text-md"><a class="btn btn-transparent dark text-md" href="https://api.whatsapp.com/send?phone=+390574729286" title="Whatsapp" target="_blank"><i class="fa-brands fa-square-whatsapp fa-xl me-2"></i> Contact us on WhatsApp</a></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="text-lg fw-bold text-uppercase">Wholesale FashionPo</div>
+                <div class="pt-2 text-md text-justify">
+                    FashionPo.com is an online wholesaler of women's clothing, focusing on ready-to-wear fashion, and serving as a channel between retailers and manufacturers. Keep up with the latest trends and shop for wholesale clothing supplies securely and easily.                </div>
+                <div class="text-lg  fw-bold text-uppercase mt-5">Customer service</div>
+                <div class="pt-1 text-lg">
+                    <div>MON-FRI 09:00-13:00 / 14:00-18:00</div>
+                    <div class="mt-2"><i class="fa-solid fa-square-phone fa-xl me-2"></i> +39 0574 729286</div>
+                    <div class="mt-2"><i class="fa-solid fa-square-envelope fa-xl me-2"></i> info@fashionpo.com</div>
+                    <div class="mt-2"><a class="btn btn-transparent text-lg dark" href="https://api.whatsapp.com/send?phone=+390574729286" title="Whatsapp" target="_blank"> 
+                        <i class="fa-brands fa-square-whatsapp fa-xl me-2"></i>  Contact us on WhatsApp                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-3 px-4">
+            <div class="d-lg-none">
+                <div class="accordion accordion-flush" id="link-accordion">
+                    <div class="accordion-item footer-section">
+                        <button class="accordion-button footer-button btn btn-transparent nav-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#link-content" aria-expanded="false" aria-controls="link-content">
+                            <span class="container d-flex align-items-center justify-content-between dark">
+                                <span class="text-lg fw-bold text-uppercase">Info Link</span>
+                                <span><i class="fa fa-plus d-none"></i></span>
+                            </span>                                                
+                        </button>
+                        <div id="link-content" class="accordion-collapse collapse show"  data-bs-parent="#link-accordion">
+                            <div class="info-links accordion-body pt-0 text-md text-justify bg-light-grey">
+                            <div class="mt-2 text-start"><a class="dark" href="/en/faq">F.a.q.</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/contacts">Contact Us</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/corporate-information">Corporate Information</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy">Privacy Policy</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/cookie-policy">Information Regarding Cookies</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy-contact">Information For Interested Parties That Require Information Via The Contact Form</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy-registration">Information For Users Regarding Registration On The Website</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/sale-conditions">General Terms And Conditions Of Use And Sale</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/shipping-conditions">Shipping And Payments</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="text-lg fw-bold text-uppercase">Info Link</div>
+                <div class="info-links text-md">
+                	<div class="mt-2 text-start"><a class="dark" href="/en/faq">F.a.q.</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/contacts">Contact Us</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/corporate-information">Corporate Information</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy">Privacy Policy</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/cookie-policy">Information Regarding Cookies</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy-contact">Information For Interested Parties That Require Information Via The Contact Form</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/privacy-registration">Information For Users Regarding Registration On The Website</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/sale-conditions">General Terms And Conditions Of Use And Sale</a></div>
+<div class="mt-2 text-start"><a class="dark" href="/en/shipping-conditions">Shipping And Payments</a></div>
+				</div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 px-4">
+            <div class="container mt-4">
+                <div class="w-100 d-flex justify-content-center align-items-center">
+                	<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://api.whatsapp.com/send?phone=+390574729286" target="_blank" aria-label="Whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://www.facebook.com/fashionpo/" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://www.instagram.com/fashionpo/" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://www.youtube.com/channel/UC7H0ShMMjZQ6cS1pkCP1YaQ" target="_blank" aria-label="Youtube">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://twitter.com/fashion_po" target="_blank" aria-label="Twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://www.linkedin.com/company/fashionpo-ingrosso-abbigliamento-donna" target="_blank" aria-label="Linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+</div>
+<div class="social bg-dark mx-2 d-flex justify-content-center align-items-center">
+    <a class="btn btn-transparent white" href="https://www.pinterest.com/fashionpo/" target="_blank" aria-label="Pinterest">
+        <i class="fa-brands fa-pinterest-p"></i>
+    </a>
+</div>
+                </div> 
+                <div class="d-flex align-items-center justify-content-center mt-4">
+                    <div class="ms-3">
+                        <div class="text-lg fw-bold text-uppercase">Fashionpo APP</div>
+                        <div class="text-md">Download the new App.</div>
+                        <div class="text-md">Easy shopping and faster browsing.</div>
+                    </div>
+                </div>
+                <div class="mt-3 text-center">
+                    <a rel="noopener" href="https://play.google.com/store/apps/details?id=it.fashionpo.app&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                        <img alt="playstore badges" loading="lazy" width="200" height="77" src="/public/img/playstore_badges/en_badge_web_generic.png">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a rel="noopener" href="https://apps.apple.com/it/app/fashionpo/id1393034712">
+                        <img alt="apple badges" loading="lazy" width="177" height="59" src="/public/img/apple_badges/en.svg">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="mt-5 mx-auto text-sm text-center px-5" style="max-width: 1000px">
+            <p>&copy; 2015-2024 All rights reserved Fashion Group Prato S.r.l.</p>
+            <p> 
+                Fashion Group Prato S.r.l. - Headquarters: Via del Carmine 11, 59100 Prato, Italy 
+                - Operational Headquarters: Via dei Confini 20, 59100 Prato, Italy
+                <br>
+                Phone +39 0574 729286 
+                - Fax +39 0574 621397 
+                - E-mail. info@fashionpo.com 
+                - fashiongrouppratosrl@legalmail.it - P.iva e Cod. Tax ID IT02346630979 
+                - Register of economic and administrative data PO-526461 
+                - Tax ID and Registration number with the Company Register of Prato: IT02346630979 
+                - company stock &euro; 10000,00 fully paid up</p>
+            
+        </div>
+    </div>
+
+    <div class="text-center">
+    <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#cookieModal">Manage your cookie preferences</button>
+</div>
+</div>
+
+        <script src="/vendor/jquery-3.6.0.min.js"></script>
+<script src="/vendor/jquery.device.detector.min.js" defer="defer"></script>
+<script src="/vendor/jquery.blockui.js" defer="defer"></script>
+<script src="/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js" defer="defer"></script>
+<script src="/vendor/select2/select2.js" defer="defer"></script>
+<script src="/public/js/app.js?VERSIONNUMBER=1728157055" defer="defer"></script>
+<script src="/public/js/navbar.js" defer="defer"></script>
+<script>
+    $(document).ready(function(){
+        APP.init("en")
+    });
+</script>        <script src="/public/js/grid.js" defer="defer"></script>
+        <script src="/public/js/filter.js" defer="defer"></script>
+        <script src="/public/js/pagination.js" defer="defer"></script>
+        <script src="/public/js/wishlist.js" defer="defer"></script>
+        <script src="/public/js/metodiordinamento.js" defer="defer"></script>
+        <script>
+            $(document).on("navBuilt", function(){
+                APP.grid.init();
+                APP.filter.init('grid');
+                APP.pagination.init();
+                APP.wishlist.init(true);
+                APP.metodiordinamento.init();
+            });
+        </script>
+            </body>
 </html>
+
+
